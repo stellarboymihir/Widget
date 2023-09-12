@@ -10,12 +10,12 @@ class HomePage extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(
-            height: 500,
+            height: 300,
             width: 300,
             color: Colors.blue,
             child: Image.asset(
               'lib/images/pic.png',
-              fit: BoxFit.fill,
+              fit: BoxFit.cover,
             ),
           ),
         ),
